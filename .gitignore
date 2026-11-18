@@ -1,0 +1,32 @@
+# Security Files
+.env
+.env.local
+.env.*.local
+
+# Runtime Files
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.json.backup
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- Personal data (never commit) ---
+events.json
+timeline.json
+tmp.json
+events-backup-*.json
+# DB credentials
+config/development.json
+backups/
+*.corrupted-backup
+*.depr
+
+# Deprecated, kept locally until removed
+*.depr
